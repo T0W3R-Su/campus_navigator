@@ -1,0 +1,361 @@
+{
+    "classrooms": [
+      {
+        "id": "1101",
+        "name": "A101",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.4002, "y": 0.4589} 
+      },
+      {
+        "id": "1102",
+        "name": "A102",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.4002, "y": 0.3912} 
+      },
+      {
+        "id": "1103",
+        "name": "A103",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.5158, "y": 0.2877} 
+      },
+      {
+        "id": "1104",
+        "name": "A104",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.5833, "y": 0.2877} 
+      },
+      {
+        "id": "1105",
+        "name": "A105",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.6508, "y": 0.2877} 
+      },
+      {
+        "id": "1106",
+        "name": "A106",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.7183, "y": 0.2877} 
+      },
+      {
+        "id": "1107",
+        "name": "A107",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.6993, "y": 0.4482} 
+      },
+      {
+        "id": "1108",
+        "name": "A108",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.7183, "y": 0.5693} 
+      },
+      {
+        "id": "1109",
+        "name": "A109",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.6528, "y": 0.5693} 
+      },
+      {
+        "id": "1110",
+        "name": "A110",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.5838, "y": 0.5693} 
+      },
+      {
+        "id": "1111",
+        "name": "A111",
+        "building": "A",
+        "floor": 1,
+        "coordinates": {"x": 0.5158, "y": 0.5693} 
+      },
+      {
+        "id": "1201",
+        "name": "A201",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.4002, "y": 0.4589} 
+      },
+      {
+        "id": "1202",
+        "name": "A202",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.4002, "y": 0.3912} 
+      },
+      {
+        "id": "1203",
+        "name": "A203",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.4373, "y": 0.3200}
+      },
+      {
+        "id": "1204",
+        "name": "A204",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.5158, "y": 0.2877} 
+      },
+      {
+        "id": "1205",
+        "name": "A205",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.5833, "y": 0.2877} 
+      },
+      {
+        "id": "1206",
+        "name": "A206",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.6508, "y": 0.2877} 
+      },
+      {
+        "id": "1207",
+        "name": "A207",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.7183, "y": 0.2877} 
+      },
+      {
+        "id": "1208",
+        "name": "A208",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.6996, "y": 0.3909} 
+      },
+      {
+        "id": "1209",
+        "name": "A209",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.6966, "y": 0.4570}
+      },
+      {
+        "id": "1210",
+        "name": "A210",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.6645, "y": 0.5556}
+      },
+      {
+        "id": "1211",
+        "name": "A211",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.5900, "y": 0.5556}
+      },
+      {
+        "id": "1212",
+        "name": "A212",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.5152, "y": 0.5556}
+      },
+      {
+        "id": "1213",
+        "name": "A213",
+        "building": "A",
+        "floor": 2,
+        "coordinates": {"x": 0.4373, "y": 0.5293}
+      },
+      {
+        "id": "1301",
+        "name": "A301",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.4002, "y": 0.4589} 
+      },
+      {
+        "id": "1302",
+        "name": "A302",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.4002, "y": 0.3912} 
+      },
+      {
+        "id": "1303",
+        "name": "A303",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.4373, "y": 0.3200}
+      },
+      {
+        "id": "1304",
+        "name": "A304",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.5158, "y": 0.2877} 
+      },
+      {
+        "id": "1305",
+        "name": "A305",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.5833, "y": 0.2877} 
+      },
+      {
+        "id": "1306",
+        "name": "A306",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.6508, "y": 0.2877} 
+      },
+      {
+        "id": "1307",
+        "name": "A307",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.7183, "y": 0.2877} 
+      },
+      {
+        "id": "1308",
+        "name": "A308",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.6996, "y": 0.3909} 
+      },
+      {
+        "id": "1309",
+        "name": "A309",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.6966, "y": 0.4570}
+      },
+      {
+        "id": "1310",
+        "name": "A310",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.7183, "y": 0.5693} 
+      },
+      {
+        "id": "1311",
+        "name": "A311",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.6528, "y": 0.5693} 
+      },
+      {
+        "id": "1312",
+        "name": "A312",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.5838, "y": 0.5693} 
+      },
+      {
+        "id": "1313",
+        "name": "A313",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.5158, "y": 0.5693} 
+      },
+      {
+        "id": "1314",
+        "name": "A314",
+        "building": "A",
+        "floor": 3,
+        "coordinates": {"x": 0.4373, "y": 0.5293}
+      },
+      {
+        "id": "1401",
+        "name": "A401",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.4002, "y": 0.4589} 
+      },
+      {
+        "id": "1402",
+        "name": "A402",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.4002, "y": 0.3912} 
+      },
+      {
+        "id": "1403",
+        "name": "A403",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.4373, "y": 0.3200}
+      },
+      {
+        "id": "1404",
+        "name": "A404",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.5158, "y": 0.2877} 
+      },
+      {
+        "id": "1405",
+        "name": "A405",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.5833, "y": 0.2877} 
+      },
+      {
+        "id": "1406",
+        "name": "A406",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.6508, "y": 0.2877} 
+      },
+      {
+        "id": "1407",
+        "name": "A407",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.7183, "y": 0.2877} 
+      },
+      {
+        "id": "1408",
+        "name": "A408",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.6996, "y": 0.3909} 
+      },
+      {
+        "id": "1409",
+        "name": "A409",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.6966, "y": 0.4570}
+      },
+      {
+        "id": "1410",
+        "name": "A410",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.7183, "y": 0.5693} 
+      },
+      {
+        "id": "1411",
+        "name": "A411",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.6605, "y": 0.5693} 
+      },
+      {
+        "id": "1412",
+        "name": "A412",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.5698, "y": 0.5693} 
+      },
+      {
+        "id": "1413",
+        "name": "A413",
+        "building": "A",
+        "floor": 4,
+        "coordinates": {"x": 0.4373, "y": 0.5293}
+      }
+    ]
+  }

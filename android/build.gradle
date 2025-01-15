@@ -1,0 +1,62 @@
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/spring/'}
+        maven { url 'https://maven.aliyun.com/repository/google/'}
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/'}
+        maven { url 'https://maven.aliyun.com/repository/spring-plugin/'}
+        maven { url 'https://maven.aliyun.com/repository/grails-core/'}
+        maven { url 'https://maven.aliyun.com/repository/apache-snapshots/'}
+        google()
+        mavenCentral()
+    }
+
+    // compile java version problem
+    afterEvaluate { project ->
+        if (project.hasProperty("kotlin")) {
+            project.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+                kotlinOptions {
+                    jvmTarget = "1.8"
+                }
+            }
+        }
+    }
+}
+
+subprojects {
+    // namespace problem
+    afterEvaluate { project ->
+        if (project.plugins.hasPlugin('com.android.library') || project.plugins.hasPlugin('com.android.application')) {
+            println "project: ${project.name} Namespace get: ${project.android.namespace}"
+            def packageName = project.android.namespace ?: project.android.defaultConfig.applicationId ?: project.android.sourceSets.main.manifest.srcFile.text.find(/package="([^"]*)"/) ?: project.group
+            project.android.namespace = packageName
+            println "Namespace set to: ${packageName} for project: ${project.name}"
+            def manifestFile = project.android.sourceSets.main.manifest.srcFile
+            if (manifestFile.exists()) {
+                def manifestText = manifestFile.text
+                if (manifestText.contains('package=')) {
+                    manifestText = manifestText.replaceAll(/package="[^"]*"/, "")
+                    manifestFile.text = manifestText
+                    println "Package attribute removed in AndroidManifest.xml for project: ${project.name}"
+                } else {
+                    println "No package attribute found in AndroidManifest.xml for project: ${project.name}"
+                }
+            } else {
+                println "AndroidManifest.xml not found for project: ${project.name}"
+            }
+        }
+    }
+}
+
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
